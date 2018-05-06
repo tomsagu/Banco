@@ -17,14 +17,12 @@
             if (request.getParameterNames().hasMoreElements() && request.getParameter("error").equals("error")) {
         %>
         }
-        <script language='javascript'>alert('Usuario o Contraseña incorrecta');</script>
+        <script language='javascript'>alert('Usuario o Contraseña incorrecta!');</script>
         <%
             }
         %>
 
-
-
-        <title>Inicio de Sesión</title>
+        <title> Inicio de Sesión </title>
         <meta charset="UTF-8">
     </head>
     <body class="bg-light">
